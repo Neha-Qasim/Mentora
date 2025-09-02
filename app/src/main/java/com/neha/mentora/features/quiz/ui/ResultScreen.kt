@@ -1,0 +1,37 @@
+package com.neha.mentora.features.quiz.ui
+
+import androidx.compose.foundation.layout.*
+import androidx.compose.material3.*
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
+
+@Composable
+fun ResultScreen(navController: NavController, score: Int, total: Int) {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(24.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
+    ) {
+        Text("Quiz Completed!", style = MaterialTheme.typography.headlineLarge)
+        Spacer(Modifier.height(12.dp))
+        Text("Score: $score / $total", style = MaterialTheme.typography.headlineMedium)
+
+        Spacer(Modifier.height(20.dp))
+        Button(onClick = { navController.navigate("quiz_category") }) {
+            Text("Choose another quiz")
+        }
+        Spacer(Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("dashboard") }) {
+            Text("Back to Dashboard")
+        }
+        Spacer(Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("quiz_history") }) {
+            Text("View History")
+        }
+    }
+}

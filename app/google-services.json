@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "158587450779",
+    "firebase_url": "https://mentora-fbced-default-rtdb.firebaseio.com",
+    "project_id": "mentora-fbced",
+    "storage_bucket": "mentora-fbced.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158587450779:android:1e3aa6fd31c663155fdd3e",
+        "android_client_info": {
+          "package_name": "com.neha.mentora"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeMILvMi1NynwISnZw_F_RDqjIhAxkS5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
