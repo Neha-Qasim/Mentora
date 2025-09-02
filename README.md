@@ -52,49 +52,49 @@ Below are the key screens of the Mentora app.
 ### 🟣 Onboarding Flow  
 |Splash Screen| Screen 1 – Welcome | Screen 2 – Features | Screen 3 – Privacy & Terms |
 |-----------------|--------------------|----------------------|----------------------------|
-|![Splash](screenshot/Splash.png)| ![Onboarding1](screenshots/onboarding1.png) | ![Onboarding2](screenshots/onboarding2.png) | ![Onboarding3](screenshots/onboarding3.png) |
+|![Splash](https://github.com/Neha-Qasim/Mentora/blob/3332a39d7cbf3a859beaed175142a8a05721aa93/Image%201.jpeg )| ![Onboarding1](https://github.com/Neha-Qasim/Mentora/blob/3332a39d7cbf3a859beaed175142a8a05721aa93/Image%20A.jpeg ) | ![Onboarding2](https://github.com/Neha-Qasim/Mentora/blob/3332a39d7cbf3a859beaed175142a8a05721aa93/Image%20B.jpeg ) | ![Onboarding3](https://github.com/Neha-Qasim/Mentora/blob/3332a39d7cbf3a859beaed175142a8a05721aa93/Image%20C.jpeg ) |
 
 ---
 
 ### 🟢 Authentication  
 | Login Screen | Register Screen |
 |--------------|-----------------|
-| ![Login](screenshots/login.png) | ![Register](screenshots/register.png) |
+| ![Login](https://github.com/Neha-Qasim/Mentora/blob/3332a39d7cbf3a859beaed175142a8a05721aa93/Image%202.jpeg ) | ![Register](https://github.com/Neha-Qasim/Mentora/blob/3332a39d7cbf3a859beaed175142a8a05721aa93/Image%203.jpeg ) |
 
 ---
 
 ### 🏠 Dashboard  
 | Dashboard |
 |-----------|
-| ![Dashboard](screenshots/dashboard.png) |
+| ![Dashboard](https://github.com/Neha-Qasim/Mentora/blob/3332a39d7cbf3a859beaed175142a8a05721aa93/Dashboard%20Screen.png ) |
 
 ---
 
 ### 🎯 Quiz Module  
-| Quiz Question | Quiz Result | Quiz History |
-|---------------|-------------|---------------|
-| ![Quiz](screenshots/quiz.png) | ![Result](screenshots/result.png) | ![History](screenshots/quiz_history.png) |
+|Category Screen| Quiz Question | Quiz Result | Quiz History |
+|----------------|---------------|-------------|---------------|
+|![Category](https://github.com/Neha-Qasim/Mentora/blob/3332a39d7cbf3a859beaed175142a8a05721aa93/Quiz%20Screen.png )| ![Quiz](https://github.com/Neha-Qasim/Mentora/blob/3332a39d7cbf3a859beaed175142a8a05721aa93/Image%206.jpeg ) | ![Result](https://github.com/Neha-Qasim/Mentora/blob/3332a39d7cbf3a859beaed175142a8a05721aa93/Quiz%20Result.png ) | ![History](https://github.com/Neha-Qasim/Mentora/blob/3332a39d7cbf3a859beaed175142a8a05721aa93/Quiz%20History.png ) |
 
 ---
 
 ### 📝 Task Manager  
-| Task List | Add/Edit Task | Filtered Tasks |
-|-----------|---------------|----------------|
-| ![Tasks](screenshots/tasks.png) | ![AddTask](screenshots/add_task.png) | ![Filtered](screenshots/filtered.png) |
+| Task List | Add/Edit Task | 
+|-----------|---------------|
+| ![Tasks](https://github.com/Neha-Qasim/Mentora/blob/89d28e2fa794ee9e268519f265f45c2482dd029d/Tasks%20Screen.png ) | ![AddTask](https://github.com/Neha-Qasim/Mentora/blob/89d28e2fa794ee9e268519f265f45c2482dd029d/Add%20Task.png ) |
 
 ---
 
 ### 💬 Chat  
 | Chat Screen |
 |-------------|
-| ![Chat](screenshots/chat.png) |
+| ![Chat](https://github.com/Neha-Qasim/Mentora/blob/b33f38304aa2259af658037d8eba041814ac9a65/Chat%20Screen.jpeg ) |
 
 ---
 
 ### 👤 Profile  
 | Profile Screen |
 |----------------|
-| ![Profile](screenshots/profile.png) |
+| ![Profile](https://github.com/Neha-Qasim/Mentora/blob/89d28e2fa794ee9e268519f265f45c2482dd029d/Profile%20Screen.png ) |
 
 
 ---
