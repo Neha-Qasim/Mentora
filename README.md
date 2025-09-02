@@ -1,166 +1,140 @@
-📱 Mentora – Social Learning App
+# 📱 Mentora – Social Learning App  
 
-Mentora is a social learning app that combines Quizzes, Task Management, Real-time Chat, Profile, Ads, and Onboarding into one cohesive learning experience.
-It helps users stay productive, test their knowledge, and collaborate with peers in real-time.
+Mentora is a **social learning app** that combines **Quizzes, Task Management, Real-time Chat, Profile, Ads, and Onboarding** into one cohesive learning experience.  
+It helps users stay productive, test their knowledge, and collaborate with peers in real-time.  
 
-✨ Features
-🔐 Authentication & Onboarding
+---
 
-Firebase Authentication (Login & Register).
+## ✨ Features  
 
-User profile stored in Firebase Realtime Database (name, email, avatar URL).
+### 🔐 Authentication & Onboarding  
+- Firebase Authentication (Login & Register).  
+- User profile stored in Firebase Realtime Database (**name, email, avatar URL**).  
+- **3-screen onboarding flow** shown only on first launch:  
+  1. Welcome screen  
+  2. Features overview  
+  3. Privacy & Terms with **Finish** button  
+- **Banner Ads** integrated at the bottom of onboarding screens.  
+- **Interstitial Ad** displayed when entering the main app.  
 
-3-screen onboarding flow shown only on first launch:
+### 🎯 Quiz Module  
+- **5 MCQs per quiz**, one question at a time.  
+- **10-second timer** per question with auto-skip on timeout.  
+- Displays **final score summary** at the end.  
+- Stores quiz scores under each user’s profile in Firebase.  
+- Dedicated **Quiz History** screen to review past attempts.  
 
-Welcome screen
+### 📝 Task Manager Module  
+- Add, edit, and delete tasks (**title, description, priority, status**).  
+- **Filter tasks** by Pending / Done.  
+- **Priority shown with color codes**: High (red), Normal (yellow), Low (green).  
+- Tasks are **stored in Firebase Realtime Database** per user.  
+- Updates in **real-time across devices**.  
 
-Features overview
+### 💬 Chat Module  
+- Real-time **group chatroom** using Firebase Realtime Database.  
+- Send and receive text messages instantly.  
+- (Optional bonus) Image sending and online/offline user status.  
 
-Privacy & Terms with Finish button
+### 🧭 App Navigation  
+- Built using **Jetpack Compose Navigation**.  
+- Home Screen includes bottom navigation for:  
+  - **Quiz**  
+  - **Tasks**  
+  - **Chat**  
+  - **Profile**  
+- Profile shows **name, email, quiz history, and task count**.
 
-Banner Ads integrated at the bottom of onboarding screens.
+## 📸 Screenshots  
 
-Interstitial Ad displayed when entering the main app.
+Below are the key screens of the Mentora app.  
 
-🎯 Quiz Module
+### 🟣 Onboarding Flow  
+|Splash Screen| Screen 1 – Welcome | Screen 2 – Features | Screen 3 – Privacy & Terms |
+|-----------------|--------------------|----------------------|----------------------------|
+|![Splash](screenshot/Splash.png)| ![Onboarding1](screenshots/onboarding1.png) | ![Onboarding2](screenshots/onboarding2.png) | ![Onboarding3](screenshots/onboarding3.png) |
 
-5 MCQs per quiz, one question at a time.
+---
 
-10-second timer per question with auto-skip on timeout.
+### 🟢 Authentication  
+| Login Screen | Register Screen |
+|--------------|-----------------|
+| ![Login](screenshots/login.png) | ![Register](screenshots/register.png) |
 
-Displays final score summary at the end.
+---
 
-Stores quiz scores under each user’s profile in Firebase.
+### 🏠 Dashboard  
+| Dashboard |
+|-----------|
+| ![Dashboard](screenshots/dashboard.png) |
 
-Dedicated Quiz History screen to review past attempts.
+---
 
-📝 Task Manager Module
+### 🎯 Quiz Module  
+| Quiz Question | Quiz Result | Quiz History |
+|---------------|-------------|---------------|
+| ![Quiz](screenshots/quiz.png) | ![Result](screenshots/result.png) | ![History](screenshots/quiz_history.png) |
 
-Add, edit, and delete tasks (title, description, priority, status).
+---
 
-Filter tasks by Pending / Done.
+### 📝 Task Manager  
+| Task List | Add/Edit Task | Filtered Tasks |
+|-----------|---------------|----------------|
+| ![Tasks](screenshots/tasks.png) | ![AddTask](screenshots/add_task.png) | ![Filtered](screenshots/filtered.png) |
 
-Priority shown with color codes: High (red), Normal (yellow), Low (green).
+---
 
-Tasks are stored in Firebase Realtime Database per user.
+### 💬 Chat  
+| Chat Screen |
+|-------------|
+| ![Chat](screenshots/chat.png) |
 
-Updates in real-time across devices.
+---
 
-💬 Chat Module
-
-Real-time group chatroom using Firebase Realtime Database.
-
-Send and receive text messages instantly.
-
-(Optional bonus) Image sending and online/offline user status.
-
-🧭 App Navigation
-
-Built using Jetpack Compose Navigation.
-
-Home Screen includes bottom navigation for:
-
-Quiz
-
-Tasks
-
-Chat
-
-Profile
-
-Profile shows name, email, quiz history, and task count.
-
-🛠️ Tech Stack
-
-Language: Kotlin
-
-UI: Jetpack Compose + Material 3
-
-Database: Firebase Realtime Database
-
-Authentication: Firebase Authentication
-
-Ads: Google AdMob (Banner + Interstitial)
-
-Architecture: MVVM (ViewModel + StateFlow)
-
-Navigation: Jetpack Navigation Compose
-
-📂 Project Structure
-📦 Mentora/
- ┣ 📂 features/
- ┃ ┣ 📂 auth/        # Login, Register, Onboarding
- ┃ ┣ 📂 quiz/        # Quiz screens + history
- ┃ ┣ 📂 tasks/       # Task manager (CRUD + filters)
- ┃ ┣ 📂 chat/        # Real-time chat
- ┃ ┗ 📂 profile/     # Profile screen & task/quiz summary
- ┣ 📂 navigation/    # App navigation graph
- ┣ MainActivity.kt   # Entry point
- ┗ README.md
-
-⚡ Setup Instructions
-🔹 Firebase Setup
-
-Go to Firebase Console
-.
-
-Create a Firebase project and connect it to your Android app.
-
-Enable Authentication → Email/Password.
-
-Enable Realtime Database (in test mode or with rules).
-
-Add google-services.json file to your app/ folder.
-
-🔹 AdMob Setup
-
-Go to Google AdMob
-.
-
-Create a new app and generate:
-
-Banner Ad Unit ID
-
-Interstitial Ad Unit ID
-
-Replace the placeholder IDs in your project with real AdMob IDs.
-
-🚀 Getting Started
-
-Clone the repository:
-
-git clone https://github.com/Neha-Qasim/Mentora.git
-cd Mentora
+### 👤 Profile  
+| Profile Screen |
+|----------------|
+| ![Profile](screenshots/profile.png) |
 
 
-Open in Android Studio.
+---
+
+## 🛠️ Tech Stack  
+- **Language**: Kotlin  
+- **UI**: Jetpack Compose + Material 3  
+- **Database**: Firebase Realtime Database  
+- **Authentication**: Firebase Authentication  
+- **Ads**: Google AdMob (Banner + Interstitial)  
+- **Architecture**: MVVM (ViewModel + StateFlow)  
+- **Navigation**: Jetpack Navigation Compose  
+
+---
+
+## ⚡ Setup Instructions  
+
+### 🔹 Firebase Setup  
+1. Go to [Firebase Console](https://console.firebase.google.com/).  
+2. Create a Firebase project and connect it to your Android app.  
+3. Enable **Authentication** → Email/Password.  
+4. Enable **Realtime Database** (in test mode or with rules).  
+5. Add `google-services.json` file to your `app/` folder.  
+
+### 🔹 AdMob Setup  
+1. Go to [Google AdMob](https://admob.google.com/).  
+2. Create a new app and generate:  
+   - **Banner Ad Unit ID**  
+   - **Interstitial Ad Unit ID**  
+3. Replace the placeholder IDs in your project with real AdMob IDs.  
+
+---
+
+## 🚀 Getting Started  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/Neha-Qasim/Mentora.git
+   cd Mentora
+   Open in Android Studio.
 
 Connect your Firebase project and AdMob.
 
 Run on emulator or physical device.
-
-📸 Screenshots
-
-Create a folder in your repo called screenshots/ and place your app images inside.
-Update the table below with real paths:
-
-Onboarding	Dashboard	Tasks	Quiz	Profile	Chat
-
-	
-	
-	
-	
-	
-📌 Deliverables
-
-✅ Clean, modular GitHub repository.
-
-✅ Firebase integration (Auth + Realtime DB).
-
-✅ AdMob integration (Banner + Interstitial).
-
-✅ APK build ready for demonstration.
-
-👩‍💻 Author
-
-Developed by Neha Qasim 🌸
